@@ -1,6 +1,6 @@
 # Aseprite pixel count extension
 
-Counts how many pixels there are in the selection.
+Counts how many pixels there are in a selection.
 
 ![image](https://github.com/user-attachments/assets/17e4ad7e-5b67-4518-becb-f7745ce66e0e)
 

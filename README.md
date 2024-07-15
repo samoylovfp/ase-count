@@ -15,5 +15,5 @@ Should you close the dialog and want to summon it again, find it in the "selecti
 ## Usage
 
 1. Make a selection and click "Recount".
-2. Osberve the number
+2. Observe the number
 3. Rejoice about having the sacred information of the number of selected pixels without tiresome manual labor

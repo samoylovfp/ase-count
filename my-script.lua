@@ -10,16 +10,8 @@ function init(plugin)
       :button {
         id = "pix_recount",
         text = "Recount",
-        onclick = function()
-          sel = count(app.sprite.selection)
-          pix_count_dialog:modify {
-            id = "pix count label",
-            title = "pix count",
-            text = sel
-          }
-        end
+        onclick = updatePixCount
       }
-      :show { wait = false }
 
   plugin:newCommand {
     id = "PixCount",
@@ -27,7 +19,17 @@ function init(plugin)
     group = "select_simple",
     onclick = function()
       pix_count_dialog:show { wait = false }
+      updatePixCount()
     end
+  }
+end
+
+function updatePixCount()
+  local sel = count(app.sprite.selection)
+  pix_count_dialog:modify {
+    id = "pix count label",
+    title = "pix count",
+    text = sel
   }
 end
 

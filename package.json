@@ -2,7 +2,7 @@
     "name": "sel-count",
     "displayName": "Selection count",
     "description": "shows the number of selected pixels",
-    "version": "0.1",
+    "version": "1.0",
     "author": { "name": "FirstName LastName",
                 "email": "my@email.com",
                 "url": "https://mywebsite.com/" },
